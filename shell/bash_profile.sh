@@ -18,3 +18,6 @@ if [ -f ~/.git-completion.bash ]; then
    __git_complete ggpull _git_pull
    __git_complete ggpush _git_push
 fi
+
+source ~/.fresh/build/shell.sh
+

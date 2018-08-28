@@ -6,3 +6,8 @@ fresh shell/bash_profile.sh --file=~/.bash_profile
 
 # fresh git completion
 fresh shell/completions/.git-completion.bash --file=~/.git-completion.bash
+
+# fresh bashrc
+fresh-options --file=~/.bashrc --marker=#
+  fresh shell/bashrc/\*
+fresh-options
