@@ -21,3 +21,11 @@ fi
 
 source ~/.fresh/build/shell.sh
 
+###########################################
+# autojump config for mac and linux
+###########################################
+if [ "${USER}" == "raulgarciaruiz" ]; then
+  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+else
+  . /usr/share/autojump/autojump.sh
+fi
