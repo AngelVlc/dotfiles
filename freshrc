@@ -13,3 +13,6 @@ fresh shell/completions/git-completion.bash --file=~/.git-completion.bash
 fresh-options --file=~/.bashrc --marker=#
   fresh shell/bashrc/\*
 fresh-options
+
+# fresh Vim
+fresh shell/vim/vimrc --file=~/.vimrc
