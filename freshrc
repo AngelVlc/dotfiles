@@ -15,4 +15,4 @@ fresh-options --file=~/.bashrc --marker=#
 fresh-options
 
 # fresh Vim
-fresh vim/vimrc --file=~/.vimrc
+# fresh vim/vimrc --file=~/.vimrc
