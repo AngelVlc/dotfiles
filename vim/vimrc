@@ -9,3 +9,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 autocmd vimenter * NERDTree
+
+" PLUGINS
+Bundle 'scrooloose/nerdtree'
