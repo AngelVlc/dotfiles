@@ -1,2 +1,9 @@
+set nocompatible " be iMproved
+
 set number
 syntax on
+
+" For vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
