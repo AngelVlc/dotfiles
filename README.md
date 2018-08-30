@@ -16,8 +16,15 @@ source ~/.fresh/build/shell.sh
  
 ``` sh
 cp .dotfiles/freshrc ~/.freshrc
-````
+```
 
 My dotfiles are managed by [fresh].
 
 [fresh]: http://freshshell.com
+
+## Others
+
+* Vundle for Vim
+``` sh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
