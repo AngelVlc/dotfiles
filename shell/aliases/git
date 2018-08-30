@@ -1,0 +1,4 @@
+#############################
+# alias
+#############################
+alias g-commits='git log origin/master..HEAD'

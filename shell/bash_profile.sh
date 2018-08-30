@@ -29,8 +29,3 @@ if [ "${USER}" == "angel.ballesterosflywire.com" ]; then
 else
   . /usr/share/autojump/autojump.sh
 fi
-
-#############################
-# alias
-#############################
-alias g-commits='git log origin/master..HEAD'
