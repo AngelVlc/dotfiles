@@ -22,6 +22,13 @@ fi
 source ~/.fresh/build/shell.sh
 
 ###########################################
+# Load aliases from bash_aliases if exists
+###########################################
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+###########################################
 # autojump config for mac and linux
 ###########################################
 if [ "${USER}" == "angel.ballesterosflywire.com" ]; then
