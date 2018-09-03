@@ -19,7 +19,6 @@ if [ -f ~/.git-completion.bash ]; then
    __git_complete ggpush _git_push
 fi
 
-source ~/.fresh/build/shell.sh
 
 ###########################################
 # Load aliases from bash_aliases if exists
@@ -36,3 +35,6 @@ if [ "${USER}" == "angel.ballesterosflywire.com" ]; then
 else
   . /usr/share/autojump/autojump.sh
 fi
+
+
+source ~/.fresh/build/shell.sh
