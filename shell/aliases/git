@@ -1,4 +1,7 @@
 #############################
 # alias
 #############################
-alias g-commits='git log origin/master..HEAD'
+alias gcs='git log origin/master..HEAD'
+alias gd='git diff --cached'
+alias gcm='git checkout master'
+alist gs='git status'
