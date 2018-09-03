@@ -3,5 +3,7 @@
 #############################
 alias gcs='git log origin/master..HEAD'
 alias gd='git diff --cached'
+alias gc='git checkout'
 alias gcm='git checkout master'
-alist gs='git status'
+alias gs='git status'
+alias gb='git branch -l'
