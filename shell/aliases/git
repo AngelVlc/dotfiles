@@ -9,4 +9,5 @@ alias gd='git diff --cached'
 alias gpb='git push --set-upstream origin'
 alias gs='git status'
 alias gp='git pull'
-alias gl="git log --graph --pretty=format:'%C(magenta)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias glg="git log --graph --pretty=format:'%C(magenta)%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gl='glg $(git show-ref | cut -d " " -f 2 | grep -v stash$)'
