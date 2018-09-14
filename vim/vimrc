@@ -10,6 +10,7 @@ call vundle#rc()
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-rails'
+Bundle 'vim-ruby/vim-ruby'
 
 call vundle#end()
 
