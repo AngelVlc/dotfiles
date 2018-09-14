@@ -4,12 +4,15 @@ set number
 
 syntax on
 
-" For vundle
+" Plugins For vundle
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-" PLUGINS
 Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-rails'
+
+call vundle#end()
+
 
 " NERD Tree
 autocmd StdinReadPre * let s:std_in=1
@@ -35,3 +38,9 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
+
+set statusline=%f         " Path to the file
+set statusline+=%=        " Switch to the right side
+set statusline+=L:\ %l    " Current line
+set statusline+=/         " Separator
+set statusline+=T:\ %L    " Total lines
