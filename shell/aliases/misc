@@ -3,3 +3,8 @@
 #############################
 alias ll='ls -l'
 alias lla='ls -la'
+
+# find file recursive
+fr(){
+  find . -name $1 -print
+}
