@@ -8,3 +8,8 @@ alias lla='ls -la'
 fr(){
   find . -name $1 -print
 }
+
+# parse json
+json(){
+  echo $1 | python -m json.tool
+}
