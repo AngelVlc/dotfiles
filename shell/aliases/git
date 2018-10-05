@@ -1,7 +1,8 @@
 #############################
 # alias
 #############################
-alias gb='git branch -l'
+alias ga='git add'
+alias gb='git branch'
 alias gc='git checkout'
 alias gcm='git checkout master'
 alias gcs='git log origin/master..HEAD'
