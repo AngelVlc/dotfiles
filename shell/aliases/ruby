@@ -1,0 +1,6 @@
+#############################
+# alias
+#############################
+alias be='bundle exec'
+alias ber='be ruby'
+alias berc='be rails c'
