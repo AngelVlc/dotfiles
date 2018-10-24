@@ -4,5 +4,4 @@
 alias v='vagrant'
 alias vu='v up'
 alias vh='v halt'
-alias vd='v down'
 alias vs='v ssh'
