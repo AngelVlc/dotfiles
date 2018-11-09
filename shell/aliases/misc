@@ -1,8 +1,12 @@
 #############################
 # alias
 #############################
-alias ll='ls -l'
-alias lla='ls -la'
+alias ll='ls -l --color=auto'
+alias lla='ls -la --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias tail='tail -f -n 50'
 
 # find file recursive
 fr(){
