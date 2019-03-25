@@ -7,6 +7,7 @@ alias egrep='egrep'
 alias fgrep='fgrep'
 alias grep='grep'
 alias tail='tail -f -n 50'
+alias fr='fr'
 
 # find file recursive
 fr(){
