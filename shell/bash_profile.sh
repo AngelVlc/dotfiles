@@ -38,5 +38,6 @@ fi
 
 export PT_VM_MEMORY=4096
 export VICTORIA_BIN=~/gitlab/tools/victoria/bin/victoria
+export PATH=$PATH:~/go/bin
 
 source ~/.fresh/build/shell.sh
