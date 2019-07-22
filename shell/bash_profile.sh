@@ -41,3 +41,5 @@ export VICTORIA_BIN=~/gitlab/tools/victoria/bin/victoria
 export PATH=$PATH:~/go/bin
 
 source ~/.fresh/build/shell.sh
+
+eval "$(rbenv init -)"
