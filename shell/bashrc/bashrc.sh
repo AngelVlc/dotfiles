@@ -32,6 +32,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 . ~/bin/z/z.sh

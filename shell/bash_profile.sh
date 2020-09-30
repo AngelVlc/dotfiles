@@ -27,15 +27,6 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-###########################################
-# autojump config for mac and linux
-###########################################
-if [ "${USER}" == "angel.ballesterosflywire.com" ]; then
-  [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-else
-  . /usr/share/autojump/autojump.sh
-fi
-
 export PT_VM_MEMORY=4096
 export VICTORIA_BIN=~/gitlab/tools/victoria/bin/victoria
 export PATH=$PATH:~/go/bin
